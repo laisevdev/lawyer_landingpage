@@ -7,14 +7,12 @@
 
     .navbar-wpp {
       position: fixed;
+      right: 0;
       top: 0;
-      left: 0;
-      width: 200px;
-      color: white;
-      padding: 5px 10px;
-      display: flex;
-
-      align-items:end;
+      width: 70px;
+      padding: 8px 5px;
+      margin-right: 150px;
+      display:flex;
       z-index: 1000;
     }
     
@@ -30,12 +28,14 @@
       justify-content: center;
       align-items: center;
       overflow: visible; 
+      justify-content:end;
     }
 
     .whatsapp-link img {
       width: 50px;
       height: 50px;
       margin: 5px;
+      justify-content:end;
       transition: transform 0.3s ;
     }
     
