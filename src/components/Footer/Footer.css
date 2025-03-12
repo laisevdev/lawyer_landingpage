@@ -133,16 +133,3 @@
     text-decoration: none;
     color: #4821ca;
 }
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .footer {
-        grid-template-areas:
-            "titlefooter"
-            "chatme"
-            "social"
-            "desenvolvedora";
-        grid-template-columns: 1fr; /* Empilha os elementos */
-        text-align: center;
-    }
-}
