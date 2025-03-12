@@ -8,19 +8,19 @@
     }
 }
 
-
 @media (max-width:768px) {
     .main {
         max-width: 730px;
+        width: 100vw;
         margin: 130px 30px;
     }
 
     .profile, h1 {
-        font-size: 16px;
+        font-size: 2.4rem;
     }
     
     .myname {
-        font-size: 20px;
+        font-size: 2rem;
     }
     
     .profile, h2 {
@@ -33,8 +33,71 @@
     }
     
     .profile p {
-        font-size: 16px;
+        font-size: 1.3rem;
     }  
+
+    .button-container {
+        display: flex;
+        width: 350px;
+        height: 150px;
+        list-style: none;
+        padding: 0;
+        justify-content: center; 
+        overflow: visible;
+      }
+      
+      .whatsapp-button {
+        display: inline-block;       
+        min-width: 210px; 
+        margin-top: 40px;
+      }
+}
+
+@media (min-width: 769px) and (max-width: 835px) {
+    .main {
+        max-width: 730px;
+        width: 100vw;
+        margin: 130px 30px;
+    }
+
+    .profile, h1 {
+        font-size: 2.4rem;
+    }
+    
+    .myname {
+        font-size: 2rem;
+    }
+    
+    .profile, h2 {
+        font-size: 48px;
+    }
+    
+    .block {
+        display: block;
+        font-size: 48px;   
+    }
+    
+    .profile p {
+        font-size: 1.3rem;
+    }  
+
+    .button-container {
+        display: flex;
+        width: 350px;
+        height: 150px;
+        list-style: none;
+        padding: 0;
+        justify-content: center; 
+        overflow: visible;
+      }
+      
+      .whatsapp-button {
+        display: inline-block;       
+        min-width: 210px; 
+        margin-top: 40px;
+      }  
+}
+
     
 
     @media (max-width:480px) {
@@ -121,4 +184,4 @@
         }
     }
     
-}
+
