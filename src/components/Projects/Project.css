@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.projects {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Divide em 3 colunas iguais */
+    justify-content: center;
+    margin: 50px auto;
+    gap: 40px; 
+    overflow: visible;
+}
+
+.titleproj h1{
+    color: #e77935;
+    display: flex;
+    margin: 50px 680px 30px 0px;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Robot Condensed';
+    
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.description h1 {
+    color: #e77935;
+    font-size: 1.2rem;
+}
+
+.description p {
+    color: #e5e4e1c8;
+    font-size: 0.85rem;
+}
+
+.card {
+    width: 100%; /* Para se ajustar ao grid */
+    background-color: #1f1d1d3a;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 8px 8px 15px -5px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+
+.card a img {
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: translateX(-3px) scale(1.04);
+}
+
+.card img {
+    max-width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card li {
+    list-style: none;
+}
+
+.card li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: #e5e4e1c8;
+    margin: 5px auto;
+}
+

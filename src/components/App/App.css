@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+
+    .navbar-wpp {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;
+      color: white;
+      padding: 5px 10px;
+      display: flex;
+
+      align-items:end;
+      z-index: 1000;
+    }
+    
+    .navbar-content {
+      display: flex;
+      align-items: end;
+      width: 100%;
+      justify-content:end;
+    }
+    
+    .whatsapp-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: visible; 
+    }
+
+    .whatsapp-link img {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      transition: transform 0.3s ;
+    }
+    
+    .whatsapp-link img:hover {
+      transform: scale(1.07);
+    }
+    
+
+    @media (min-width:481px) {
+        .style-mobile {
+          display: none;
+        }
+      }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.localizacao {
+    max-width: 1000px;
+    max-height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 50% para cada lado */
+    grid-template-areas: "localizacao-matogrosso mapa";
+    margin: 130px auto 50px auto;
+    gap: 50px; 
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.mapa img {
+    width: 80%;
+    max-width: 500px; /* Define um tamanho máximo */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.mapa img:hover {
+    transform: scale(1.05); /* Aumenta levemente a imagem */
+}
+
+.mapa h1 {
+    color: #e77935;
+    font-family: 'Robot Condensed';
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+
+.localizacao-matogrosso h1 {
+    color: #e77935;
+    font-family: 'Robot Condensed';
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+
+.cidade-item {
+    color: #fff;
+    list-style:circle;
+    font-size: 1.25rem;
+}
+
+.cidade-item {
+    color: #e5e4e1c8;
+    background: #1f1d1d3a;
+    padding: 10px;
+    margin: 5px 5px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.3s;
+    width: 220px;
+    cursor: pointer;
+}
+
+.cidade-item:hover {
+    color: #e77935;
+    transform: scale(1.05);
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.mapa img {
+    width: 80%;
+    max-width: 500px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.mapa img:hover {
+    transform: scale(1.05); 
+}
+
+
+
+

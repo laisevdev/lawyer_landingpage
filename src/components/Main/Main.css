@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+   max-width: 1000px;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   margin: 130px auto;
+
+   font-family:'Robot Condensed';
+}
+
+.profile, h1 {
+    font-size: 4.4rem;
+    color:#e77935;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+.block {
+    display: block;
+    font-size: 3.9rem;
+    color:#e77935;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+
+}
+
+.profile p {
+    font-size: 1.5rem;
+    color: #e5e4e1c8;
+    text-align:justify;
+}
+
+.profile-img img {
+    max-width: 320px;
+    border-radius: 8px;
+}
+
+.profile-img-mobile img {
+    display: none;
+}
+
+.button-container {
+    display: flex;
+    width: 350px;
+    height: 150px;
+    list-style: none;
+    padding: 0;
+    justify-content: center; 
+    overflow: visible;
+  }
+  
+  .whatsapp-button {
+    display: inline-block;
+    width: 180px;
+    color:#e77935;
+    padding: 12px 24px;
+    border: 2px solid #c0c5c25c;
+    border-radius: 50px; /* Arredondamento das laterais */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    text-align: center;
+    min-width: 210px; 
+  }
+  
+  .whatsapp-button:hover {
+    color: #e5e4e1c8;    
+    background-color: #0a0a09; 
+  }
+  
+
+@media (max-width:1024px) {
+    .navbar{
+        width: 95%;
+    }
+
+    .title, h1 {
+        font-size: 26px;
+        margin: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .title, h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:480px) {
+
+    .navbar {
+        max-width: 414px;
+        min-width: 360px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;
+    
+     }
+     
+    .title, h1 {
+        width: 100%;
+        font-size: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0 15px 0;
+    }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    max-width: 1000px;
+    max-height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 50% para cada lado */
+    grid-template-areas: "sobremim formacao";
+    margin: 10px auto 150px auto;
+    gap: 150px; 
+}
+
+.sobremim {
+    grid-area: "aboutme";
+}
+
+.sobremim img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do container */
+    max-width: 300px; /* Define um tamanho máximo */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    display: block; /* Remove espaçamentos indesejados */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+
+.formacao h1 {
+    color: #e77935;
+    font-family: 'Robot Condensed';
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.formacao h2 {
+    color:#e5e4e1c8;
+    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    text-align: justify;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+
+
+
+

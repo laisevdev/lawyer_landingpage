@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Robot Condensed';
+}
+
+.footer {
+    max-width: 1000px;
+    min-height: 80vh; /* Altura mínima para melhor adaptação */
+    display: grid;
+    grid-template-areas: 
+        "titlefooter chatme"
+        "social social"
+        "desenvolvedora desenvolvedora";
+    grid-template-columns: 1fr 1fr; /* Divide em duas colunas */
+    gap: 20px; /* Espaço entre os elementos */
+    justify-content:left;
+    align-items:center;
+    margin: 70px auto 0px auto;
+    padding: 20px;
+}
+
+.titlefooter {
+    grid-area: titlefooter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titlefooter h1 {
+    font-size: 1.9rem; 
+    text-align:left;
+    margin: 10px 0;
+    color: #e77935;  
+}
+
+.titlefooter h2 {
+    font-size: 1.7rem; 
+    text-align:left;
+    margin: 10px 0;
+    color: #e77935;  
+}
+
+.titlefooter h3 {
+    font-size: 0.9rem; 
+    text-align:left;
+    margin: 10px 0;
+    color: #e5e4e1c8;  
+}
+
+
+.chatme {
+    grid-area: chatme;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.chatme h1 {
+    font-size: 1.8rem; 
+    text-align:left;
+    margin: 10px 0;
+    color: #e77935; 
+}
+
+
+.chatme h3 {
+    display: flex; 
+    align-items: center; /* Alinha verticalmente a imagem e o texto */
+    gap: 10px; /* Espaço entre a imagem e o texto */
+    flex-wrap: wrap;
+    color: #e5e4e1c8;
+    font-size: 0.9rem; 
+    text-align:left;
+    margin: 10px 10px 8px 40px;
+}
+
+.chatme h3 img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.chatme img:hover {
+    transform: scale(1.02);
+}
+
+
+.social {
+    grid-area: social;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social img {
+    max-width: 30px;
+    height: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.social img:hover {
+    border-radius: 6px;
+    transform: scale(1.08);
+}
+
+.desenvolvedora {
+    grid-area: desenvolvedora;
+    width: 100%;
+    text-align: center;
+    align-self: flex-end;
+    padding: 0px 0;
+    color: #e5e4e1c8;
+    font-size: 0.4rem;
+}
+
+.desenvolvedora a {
+    text-decoration: none;
+    color: #4821ca;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer {
+        grid-template-areas:
+            "titlefooter"
+            "chatme"
+            "social"
+            "desenvolvedora";
+        grid-template-columns: 1fr; /* Empilha os elementos */
+        text-align: center;
+    }
+}

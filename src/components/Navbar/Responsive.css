@@ -1,0 +1,36 @@
+@media (max-width:1024px) {
+    .navbar {
+        max-width: 900px;
+        margin: 30px auto;
+        display: grid;
+        grid-template-areas: "logotipo menu";
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu li {
+        padding: 0 6px;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar {
+        max-width: 730px;
+    }
+    .menu-mobile {
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+
+    .menu {
+        display: none;
+    }
+
+    .logotipo {
+        display: none;
+    }      
+}
