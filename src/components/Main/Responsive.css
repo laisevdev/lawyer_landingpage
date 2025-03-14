@@ -1,187 +1,202 @@
-@media (max-width:1024px) {
-    .main {
-        max-width: 900px; 
-    }
+@media (max-width: 1024px) {
+  .main {
+    max-width: 900px;
+  }
 
-    .profile-img img {
-        max-width: 290px;    
-    }
+  .profile, h1 {
+    font-size: 3.8rem;
+    color:#e77935;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
 
-@media (max-width:768px) {
-    .main {
-        max-width: 730px;
-        width: 100vw;
-        margin: 130px 30px;
-    }
+  .profile-img img {
+    max-width: 290px;
+  }
+}
 
-    .profile, h1 {
-        font-size: 2.4rem;
-    }
-    
-    .myname {
-        font-size: 2rem;
-    }
-    
-    .profile, h2 {
-        font-size: 48px;
-    }
-    
-    .block {
-        display: block;
-        font-size: 48px;   
-    }
-    
-    .profile p {
-        font-size: 1.3rem;
-    }  
+@media (max-width: 768px) {
+  .main {
+    max-width: 700px;
+    width: 100vw;
+    height: 80vh;
+    margin: 0px 15px;
+  }
 
-    .button-container {
-        display: flex;
-        width: 350px;
-        height: 150px;
-        list-style: none;
-        padding: 0;
-        justify-content: center; 
-        overflow: visible;
-      }
-      
-      .whatsapp-button {
-        display: inline-block;       
-        min-width: 210px; 
-        margin-top: 40px;
-      }
+  .profile,
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .profile-img img {
+    max-width: 280px;
+    border-radius: 8px;
+  }
+
+  .myname {
+    font-size: 2rem;
+  }
+
+  .profile,
+  h2 {
+    font-size: 48px;
+  }
+
+  .block {
+    display: block;
+    font-size: 48px;
+  }
+
+  .profile p {
+    font-size: 1.3rem;
+  }
+
+  .button-container {
+    display: flex;
+    width: 350px;
+    height: 150px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    overflow: visible;
+  }
+
+  .whatsapp-button {
+    display: inline-block;
+    min-width: 210px;
+    margin-top: 40px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 835px) {
-    .main {
-        max-width: 730px;
-        width: 100vw;
-        margin: 130px 30px;
-    }
+  .main {
+    max-width: 730px;
+    height: 70vh;
+    margin: 0px 30px;
+    align-items: center;
+    align-content: center;
+  }
 
-    .profile, h1 {
-        font-size: 2.4rem;
-    }
-    
-    .myname {
-        font-size: 2rem;
-    }
-    
-    .profile, h2 {
-        font-size: 48px;
-    }
-    
-    .block {
-        display: block;
-        font-size: 48px;   
-    }
-    
-    .profile p {
-        font-size: 1.3rem;
-    }  
+  .profile,
+  h1 {
+    font-size: 2.4rem;
+  }
 
-    .button-container {
-        display: flex;
-        width: 350px;
-        height: 150px;
-        list-style: none;
-        padding: 0;
-        justify-content: center; 
-        overflow: visible;
-      }
-      
-      .whatsapp-button {
-        display: inline-block;       
-        min-width: 210px; 
-        margin-top: 40px;
-      }  
+  .myname {
+    font-size: 2rem;
+  }
+
+  .profile,
+  h2 {
+    font-size: 48px;
+  }
+
+  .block {
+    display: block;
+    font-size: 48px;
+  }
+
+  .profile p {
+    font-size: 1.3rem;
+  }
+
+  .button-container {
+    display: flex;
+    width: 350px;
+    height: 150px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    overflow: visible;
+  }
+
+  .whatsapp-button {
+    display: inline-block;
+    min-width: 210px;
+    margin-top: 40px;
+  }
 }
 
-    
+@media (max-width: 480px) {
+  .main {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: "Roboto Condensed", sans-serif;
+  }
 
-    @media (max-width:480px) {
-        .main {
-            max-width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: column; 
-            justify-content: center; 
-            align-items: center;
-            margin: 0 auto;
-            font-family: 'Roboto Condensed', sans-serif; 
-        }
-    
-        .profile, h1 {
-            color: #e5e4e1c8;
-            font-size: 1.5rem;
-        }
-    
-        .myname {
-            color: #fff;
-            font-size: 1.4rem;
-        }
-    
-        .profile h2 {
-            max-width: 95vw;
-            font-size: 2rem;
-            color: #81099f;
-            font-family: 'Roboto', 'Times New Roman', Times, serif;
-            text-align: center;
-        }
-    
-        .block {
-            max-width: 95vw;
-            font-size: 2rem;
-            color: #81099f;
-            font-family: 'Roboto', 'Times New Roman', Times, serif;
-            text-align: center; 
-        }
-    
-        .profile p {
-            max-width: 95vw;
-            font-size: 1rem;
-            color: #e5e4e1c8;
-            text-align: justify;
-            margin: 15px;
-        }
+  .profile,
+  h1 {
+    color: #e5e4e1c8;
+    font-size: 1.5rem;
+  }
 
-        .profile-img img {
-            display: none;
-        }
-    
-        .profile-img-mobile img {
-            display: flex; 
-            flex-direction: column-reverse;
-            width: 150px; 
-            height: 150px; 
-            border-radius: 50%; 
-            margin: 20px auto; 
-        }
-    
-        .button-main-mobile {
-            display: flex;
-            justify-content: center; 
-            width: 100%; 
-        }
-    
-        button {
-            width: 93vw;
-            height: 50px;
-            background-color: #f7f430;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 20px 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        button:hover {
-            background-color: #222221;
-            color: #f6e207;
-            border: 1px solid #f6e207;
-        }
-    }
-    
+  .myname {
+    color: #fff;
+    font-size: 1.4rem;
+  }
 
+  .profile h2 {
+    max-width: 95vw;
+    font-size: 2rem;
+    color: #81099f;
+    font-family: "Roboto", "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .block {
+    max-width: 95vw;
+    font-size: 2rem;
+    color: #81099f;
+    font-family: "Roboto", "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  .profile p {
+    max-width: 95vw;
+    font-size: 1rem;
+    color: #e5e4e1c8;
+    text-align: justify;
+    margin: 15px;
+  }
+
+  .profile-img img {
+    display: none;
+  }
+
+  .profile-img-mobile img {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+
+  .button-main-mobile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  button {
+    width: 93vw;
+    height: 50px;
+    background-color: #f7f430;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button:hover {
+    background-color: #222221;
+    color: #f6e207;
+    border: 1px solid #f6e207;
+  }
+}
