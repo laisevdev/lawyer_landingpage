@@ -1,6 +1,6 @@
 @media (max-width:1024px) {
     .navbar {
-        max-width: 900px;
+        max-width: 880px;
         margin: 30px auto;
         display: grid;
         grid-template-areas: "logotipo menu";
@@ -15,10 +15,29 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 835px){
     .navbar {
-        max-width: 730px;
+        width: 100%;
+        margin-top: 25px;
+        display: flex;
+        justify-content: flex-start; /* Alinha os itens à esquerda */
+        padding-left: 10px; /* Ajuste conforme necessário */
     }
+
+    .menu a {
+        padding: 5px 15px;
+        font-size: 0.9rem;
+    }
+
+    .image {
+        width: 70px;
+        height: 70px; 
+        margin-right: 15px;   
+        border-radius: 50px;    
+        cursor: pointer;
+        overflow: visible;
+    }    
+
     .menu-mobile {
         display: none;
     }
