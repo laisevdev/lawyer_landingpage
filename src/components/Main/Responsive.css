@@ -141,8 +141,8 @@
 
   .profile h2 {
     max-width: 95vw;
-    font-size: 2rem;
-    color: #81099f;
+    font-size: 1rem;
+    color:#e73550;
     font-family: "Roboto", "Times New Roman", Times, serif;
     text-align: center;
   }
@@ -150,7 +150,7 @@
   .block {
     max-width: 95vw;
     font-size: 2rem;
-    color: #81099f;
+    color: #099f09;
     font-family: "Roboto", "Times New Roman", Times, serif;
     text-align: center;
   }
@@ -182,21 +182,54 @@
     width: 100%;
   }
 
-  button {
-    width: 93vw;
-    height: 50px;
-    background-color: #f7f430;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  @media (max-width: 480px) {
+    .main {
+        max-width: 100%; 
+        height: auto;
+        margin: 40px 15px 150px 15px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-  button:hover {
-    background-color: #222221;
-    color: #f6e207;
-    border: 1px solid #f6e207;
-  }
+    .profile,
+    h1 {
+        font-size: 1.6rem;
+        color:#e77935;
+    }
+
+    .block {
+        display: block;
+        font-size: 1.7rem;
+        color:#e77935;
+    }
+
+    .profile p {
+        font-size: 1rem; 
+        margin: 10px 0px;
+    }
+
+    .profile-img-mobile img {
+      width: 260px;
+      height: 260px;
+      border-radius: 12px;
+  } 
+
+    .button-container {
+        display: flex;
+        flex-direction: column; 
+        width: 100%; 
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whatsapp-button {
+        display: inline-block;
+        min-width: 180px;
+        margin-top: 20px; 
+    }
+}
+
 }
