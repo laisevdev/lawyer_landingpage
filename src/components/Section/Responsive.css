@@ -30,19 +30,20 @@
 
   .formacao h1 {
     color: #e77935;
-    font-family: 'Robot Condensed';
+    font-family: "Robot Condensed";
     font-size: 1.6rem;
     margin-bottom: 35px;
     text-align: justify;
-}
+  }
 
-.formacao h2 {
-    color:#e5e4e1c8;
-    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+  .formacao h2 {
+    color: #e5e4e1c8;
+    font-family: "Poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     text-align: justify;
     font-size: 0.95rem;
     margin-bottom: 30px;
-}
+  }
 }
 
 @media (max-width: 480px) {
@@ -51,7 +52,7 @@
     max-height: 1800px;
     display: flex;
     flex-direction: column;
-    margin: 0px 10px;
+    margin: 50px 10px;
     gap: 20px;
   }
 
@@ -74,20 +75,6 @@
     text-align: justify;
     line-height: 35px;
     padding: 0 10px;
-  }
-
-  .name,
-  .blocktech,
-  .skillsmain,
-  .toolsbuild,
-  .decentralizedtech,
-  .learnmore {
-    color: #81099f;
-  }
-
-  .skills {
-    grid-area: unset;
-    margin: 50px auto;
   }
 
   .skills h1 {
@@ -127,5 +114,84 @@
   .skills li:hover {
     color: #81099f;
     border: 1px solid #81099f;
+  }
+
+  @media (max-width: 480px) {
+    * {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .section {
+      max-width: 100%;
+      max-height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 0px auto 50px auto; 
+      gap: 50px;
+    }
+
+    .sobremim {
+      grid-area: auto; 
+    }
+
+    .sobremim img {
+      width: 80%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .formacao {
+      width: 100%; 
+    }
+
+    .formacao h1 {
+      font-size: 1.5rem; 
+      text-align: center; 
+    }
+
+    .formacao h2 {
+      font-size: 0.8rem; 
+      text-align: justify; 
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .section {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  .sobremim {
+    grid-area: auto; 
+    height: 300px;
+  }
+
+  .sobremim img {
+    width: 250px;
+    height: 270px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .formacao {
+    width: 90%; 
+   
+  }
+
+  .formacao h1 {
+    font-size: 1.2rem;
+    text-align: center; 
+  }
+
+  .formacao h2 {
+    font-size: 0.8rem;
+    text-align: justify; 
+    margin-bottom: 20px;
   }
 }
