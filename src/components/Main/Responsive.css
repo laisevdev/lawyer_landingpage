@@ -3,11 +3,12 @@
     max-width: 900px;
   }
 
-  .profile, h1 {
+  .profile,
+  h1 {
     font-size: 3.8rem;
-    color:#e77935;
-    font-family: 'Roboto', 'Times New Roman', Times, serif;
-}
+    color: #e77935;
+    font-family: "Roboto", "Times New Roman", Times, serif;
+  }
 
   .profile-img img {
     max-width: 290px;
@@ -142,7 +143,7 @@
   .profile h2 {
     max-width: 95vw;
     font-size: 1rem;
-    color:#e73550;
+    color: #e73550;
     font-family: "Roboto", "Times New Roman", Times, serif;
     text-align: center;
   }
@@ -184,52 +185,51 @@
 
   @media (max-width: 480px) {
     .main {
-        max-width: 100%; 
-        height: auto;
-        margin: 40px 15px 150px 15px; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+      max-width: 100%;
+      height: auto;
+      margin: 40px 15px 150px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
 
     .profile,
     h1 {
-        font-size: 1.6rem;
-        color:#e77935;
+      font-size: 1.6rem;
+      color: #e77935;
     }
 
     .block {
-        display: block;
-        font-size: 1.7rem;
-        color:#e77935;
+      display: block;
+      font-size: 1.7rem;
+      color: #e77935;
     }
 
     .profile p {
-        font-size: 1rem; 
-        margin: 10px 0px;
+      font-size: 1rem;
+      margin: 10px 0px;
     }
 
     .profile-img-mobile img {
       width: 260px;
       height: 260px;
       border-radius: 12px;
-  } 
+    }
 
     .button-container {
-        display: flex;
-        flex-direction: column; 
-        width: 100%; 
-        height: auto;
-        justify-content: center;
-        align-items: center;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      align-items: center;
     }
 
     .whatsapp-button {
-        display: inline-block;
-        min-width: 180px;
-        margin-top: 20px; 
+      display: inline-block;
+      min-width: 180px;
+      margin-top: 20px;
     }
-}
-
+  }
 }
