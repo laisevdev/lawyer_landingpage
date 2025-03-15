@@ -87,4 +87,11 @@
   .style-mobile {
     display: none;
   }
+
+}
+
+@media (max-width: 481px) {
+  .navbar-wpp, .navbar-content {
+    display: none;
+  }
 }
