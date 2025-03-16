@@ -9,7 +9,7 @@ const BALANCA_JUSTICA = imgbalanca;
 
 const Project = () => {
     return (
-        <div id="projetos">
+        <div id="areasatuacao">
             <InView>
                 <section className="container-project">
                     <div className="titleproj">
