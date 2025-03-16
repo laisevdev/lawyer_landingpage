@@ -43,6 +43,26 @@
   transform: scale(1.07);
 }
 
+@media (min-width: 1025px) and (max-width: 1281px) {
+  .navbar-content {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .navbar-wpp {
+    position: fixed;
+    right: 0;
+    top: 10;
+    width: 70px;
+    padding: 8px 5px;
+    margin-right: 0px;
+    display: flex;
+    z-index: 1000;
+  }
+}
+
 @media (max-width: 1024px) {
   .navbar-content {
     display: flex;
@@ -87,11 +107,11 @@
   .style-mobile {
     display: none;
   }
-
 }
 
 @media (max-width: 481px) {
-  .navbar-wpp, .navbar-content {
+  .navbar-wpp,
+  .navbar-content {
     display: none;
   }
 }
