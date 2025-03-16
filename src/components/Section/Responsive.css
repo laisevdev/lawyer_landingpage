@@ -145,7 +145,8 @@
     }
 
     .formacao {
-      width: 100%; 
+      width: 90%; 
+      height: auto;
     }
 
     .formacao h1 {
@@ -164,24 +165,24 @@
 @media (max-width: 360px) {
   .section {
     max-width: 100%;
-    max-height: auto;
+    height: auto;
   }
 
   .sobremim {
     grid-area: auto; 
-    height: 300px;
+    height: auto;
   }
 
   .sobremim img {
     width: 250px;
-    height: 270px;
+    height: 250px;
     border-radius: 10px;
     margin-bottom: 10px;
   }
 
   .formacao {
     width: 90%; 
-   
+    height: auto;
   }
 
   .formacao h1 {
