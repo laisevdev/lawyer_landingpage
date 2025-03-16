@@ -9,7 +9,7 @@ const Section = () => {
     const cidades = ["Cuiabá", "Primavera do Leste", "Barra do Bugres", "Tangará da Serra", "Juína", "Colniza"];
 
     return (
-       
+        <div id="nossalocalizacao"> 
             <InView>
                 <section className="localizacao">
                    
@@ -31,6 +31,7 @@ const Section = () => {
 
                 </section>
             </InView>
+        </div>
     );
 };
 
