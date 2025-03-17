@@ -10,7 +10,7 @@
   right: 0;
   top: 0;
   width: 70px;
-  padding: 8px 5px;
+  padding: 10px 10px;
   margin-right: 150px;
   display: flex;
   z-index: 1000;
@@ -18,8 +18,8 @@
 
 .navbar-content {
   display: flex;
-  align-items: end;
-  width: 100%;
+  align-items: center;
+  overflow: visible;  
   justify-content: end;
 }
 
@@ -35,12 +35,13 @@
   width: 50px;
   height: 50px;
   margin: 0px;
+  overflow: visible;
   justify-content: end;
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .whatsapp-link img:hover {
-  transform: scale(1.07);
+  transform: scale(1.04);
 }
 
 @media (min-width: 1025px) and (max-width: 1281px) {
